@@ -13,9 +13,9 @@
     "values.js": "^2.0.0"
   },
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test"
